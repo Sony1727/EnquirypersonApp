@@ -1,0 +1,37 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:hint="Enter the Person Id"
+        android:id="@+id/person"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Delete"
+        android:id="@+id/delete"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Back to Menu"
+        android:id="@+id/back"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
